@@ -10,3 +10,8 @@ test('new VError(new Error())', () => {
     const error = new VError(new Error());
     expect(serializer(error)).toMatchSnapshot();
 })
+
+test('new VError({ cause: new Error(), info: { count: 42 } })', () => {
+    const error = new VError({ cause: new Error(), info: { count: 42 } });
+    expect(serializer(error)).toMatchSnapshot();
+});

@@ -18,6 +18,7 @@ export default err => {
         message,
         name,
         signal,
-        stack: stack.clean(VError.fullStack(err))
+        stack: stack.clean(VError.fullStack(err)),
+        ...VError.info(err)
     };
 };

@@ -31,6 +31,148 @@ process._tickCallback (internal/process/next_tick.js:103:7)
 }
 `;
 
+exports[`test new VError({ cause: new Error(), info: { count: 42 } }) 1`] = `
+Object {
+  "code": undefined,
+  "count": 42,
+  "message": ": ",
+  "name": "VError",
+  "signal": undefined,
+  "stack": "Object.<anonymous> (__tests__/index.js:15:17)
+Object.<anonymous> (node_modules/jest-jasmine2/build/jasmine-async.js:42:32)
+attemptAsync (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1984:24)
+QueueRunner.run (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1939:9)
+node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1966:16
+node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1909:9
+Object.fn (node_modules/jest-jasmine2/build/jasmine-async.js:68:11)
+attemptAsync (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1984:24)
+QueueRunner.run (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1939:9)
+QueueRunner.execute (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1927:10)
+Spec.queueRunnerFactory (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:718:35)
+Spec.execute (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:372:10)
+Object.fn (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:2584:37)
+attemptAsync (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1984:24)
+QueueRunner.run (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1939:9)
+node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1966:16
+node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1909:9
+complete (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:384:9)
+QueueRunner.clearStack (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:681:9)
+QueueRunner.run (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1949:12)
+node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1966:16
+node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1909:9
+Object.<anonymous> (node_modules/jest-jasmine2/build/jasmine-async.js:47:11)
+attemptAsync (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1984:24)
+QueueRunner.run (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1939:9)
+node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1966:16
+node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1909:9
+Object.fn (node_modules/jest-jasmine2/build/jasmine-async.js:68:11)
+attemptAsync (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1984:24)
+QueueRunner.run (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1939:9)
+QueueRunner.execute (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1927:10)
+Spec.queueRunnerFactory (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:718:35)
+Spec.execute (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:372:10)
+Object.fn (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:2584:37)
+attemptAsync (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1984:24)
+QueueRunner.run (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1939:9)
+node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1966:16
+node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1909:9
+complete (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:384:9)
+QueueRunner.clearStack (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:681:9)
+QueueRunner.run (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1949:12)
+node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1966:16
+node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1909:9
+Object.<anonymous> (node_modules/jest-jasmine2/build/jasmine-async.js:47:11)
+attemptAsync (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1984:24)
+QueueRunner.run (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1939:9)
+node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1966:16
+node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1909:9
+Object.fn (node_modules/jest-jasmine2/build/jasmine-async.js:68:11)
+attemptAsync (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1984:24)
+QueueRunner.run (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1939:9)
+QueueRunner.execute (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1927:10)
+Spec.queueRunnerFactory (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:718:35)
+Spec.execute (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:372:10)
+Object.fn (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:2584:37)
+attemptAsync (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1984:24)
+QueueRunner.run (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1939:9)
+QueueRunner.execute (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1927:10)
+queueRunnerFactory (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:718:35)
+TreeProcessor.execute (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:2431:7)
+Env.execute (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:780:17)
+jasmine2 (node_modules/jest-jasmine2/build/index.js:96:7)
+runTest (node_modules/jest-cli/build/runTest.js:50:10)
+promise.then (node_modules/jest-cli/build/TestRunner.js:304:14)
+process._tickCallback (internal/process/next_tick.js:103:7)
+caused by: Error
+    Object.<anonymous> (__tests__/index.js:15:73)
+    Object.<anonymous> (node_modules/jest-jasmine2/build/jasmine-async.js:42:32)
+    attemptAsync (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1984:24)
+    QueueRunner.run (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1939:9)
+    node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1966:16
+    node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1909:9
+    Object.fn (node_modules/jest-jasmine2/build/jasmine-async.js:68:11)
+    attemptAsync (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1984:24)
+    QueueRunner.run (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1939:9)
+    QueueRunner.execute (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1927:10)
+    Spec.queueRunnerFactory (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:718:35)
+    Spec.execute (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:372:10)
+    Object.fn (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:2584:37)
+    attemptAsync (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1984:24)
+    QueueRunner.run (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1939:9)
+    node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1966:16
+    node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1909:9
+    complete (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:384:9)
+    QueueRunner.clearStack (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:681:9)
+    QueueRunner.run (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1949:12)
+    node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1966:16
+    node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1909:9
+    Object.<anonymous> (node_modules/jest-jasmine2/build/jasmine-async.js:47:11)
+    attemptAsync (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1984:24)
+    QueueRunner.run (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1939:9)
+    node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1966:16
+    node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1909:9
+    Object.fn (node_modules/jest-jasmine2/build/jasmine-async.js:68:11)
+    attemptAsync (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1984:24)
+    QueueRunner.run (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1939:9)
+    QueueRunner.execute (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1927:10)
+    Spec.queueRunnerFactory (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:718:35)
+    Spec.execute (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:372:10)
+    Object.fn (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:2584:37)
+    attemptAsync (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1984:24)
+    QueueRunner.run (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1939:9)
+    node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1966:16
+    node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1909:9
+    complete (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:384:9)
+    QueueRunner.clearStack (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:681:9)
+    QueueRunner.run (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1949:12)
+    node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1966:16
+    node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1909:9
+    Object.<anonymous> (node_modules/jest-jasmine2/build/jasmine-async.js:47:11)
+    attemptAsync (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1984:24)
+    QueueRunner.run (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1939:9)
+    node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1966:16
+    node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1909:9
+    Object.fn (node_modules/jest-jasmine2/build/jasmine-async.js:68:11)
+    attemptAsync (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1984:24)
+    QueueRunner.run (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1939:9)
+    QueueRunner.execute (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1927:10)
+    Spec.queueRunnerFactory (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:718:35)
+    Spec.execute (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:372:10)
+    Object.fn (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:2584:37)
+    attemptAsync (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1984:24)
+    QueueRunner.run (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1939:9)
+    QueueRunner.execute (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:1927:10)
+    queueRunnerFactory (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:718:35)
+    TreeProcessor.execute (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:2431:7)
+    Env.execute (node_modules/jest-jasmine2/vendor/jasmine-2.5.2.js:780:17)
+    jasmine2 (node_modules/jest-jasmine2/build/index.js:96:7)
+    runTest (node_modules/jest-cli/build/runTest.js:50:10)
+    promise.then (node_modules/jest-cli/build/TestRunner.js:304:14)
+    process._tickCallback (internal/process/next_tick.js:103:7)
+",
+}
+`;
+
 exports[`test new VError(new Error()) 1`] = `
 Object {
   "code": undefined,
