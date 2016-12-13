@@ -15,3 +15,9 @@ test('new VError({ cause: new Error(), info: { count: 42 } })', () => {
     const error = new VError({ cause: new Error(), info: { count: 42 } });
     expect(serializer(error)).toMatchSnapshot();
 });
+
+test('stackless Error', () => {
+    const error = new Error();
+    delete error.stack;
+    expect(serializer(error)).toMatchSnapshot();
+});

@@ -271,3 +271,13 @@ caused by: Error
 ",
 }
 `;
+
+exports[`test stackless Error 1`] = `
+Object {
+  "code": undefined,
+  "message": "",
+  "name": "Error",
+  "signal": undefined,
+  "stack": undefined,
+}
+`;
