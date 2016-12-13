@@ -5,7 +5,14 @@ const stack = new StackUtils({
     cwd: process.cwd(),
     internals: StackUtils.nodeInternals()
 });
-
+const clean = err => {
+    let cleaned = err;
+    try {
+        cleaned = VError.fullStack(cleaned);
+        cleaned = stack.clean(cleaned);
+    } catch (e) {}
+    return cleaned;
+};
 export default err => {
     const {
         code,
@@ -18,7 +25,7 @@ export default err => {
         message,
         name,
         signal,
-        stack: stack.clean(VError.fullStack(err)),
+        stack: clean(err),
         ...VError.info(err)
     };
 };
