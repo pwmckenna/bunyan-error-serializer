@@ -1,6 +1,6 @@
 {
   "name": "bunyan-error-serializer",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "bunyan.stdSerializer.err alternative",
   "main": "lib/index.js",
   "scripts": {
