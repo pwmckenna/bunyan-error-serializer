@@ -8,8 +8,8 @@
     "prepublish": "babel src -d lib"
   },
   "keywords": [
-    "logger",
     "logging",
+    "logg",
     "bunyan",
     "error"
   ],
