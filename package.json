@@ -1,12 +1,18 @@
 {
   "name": "bunyan-error-serializer",
   "version": "1.0.5",
-  "description": "",
+  "description": "bunyan.stdSerializer.err alternative",
   "main": "lib/index.js",
   "scripts": {
     "test": "jest",
     "prepublish": "babel src -d lib"
   },
+  "keywords": [
+    "logger",
+    "logging",
+    "bunyan",
+    "error"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pwmckenna/bunyan-error-serializer.git"
