@@ -14,6 +14,9 @@ const clean = err => {
     return cleaned;
 };
 export default err => {
+    if (!(err instanceof Error)) {
+        return err;
+    }
     const {
         code,
         message,

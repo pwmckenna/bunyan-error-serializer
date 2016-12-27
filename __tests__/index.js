@@ -21,3 +21,9 @@ test('stackless Error', () => {
     delete error.stack;
     expect(serializer(error)).toMatchSnapshot();
 });
+
+test('non Errors', () => {
+    serializer(false);
+    serializer({});
+    serializer(() => {});
+});
