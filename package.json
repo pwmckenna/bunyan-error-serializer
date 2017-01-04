@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "jest",
-    "prepublish": "babel src -d lib"
+    "prepublish": "babel src -d lib -s"
   },
   "keywords": [
     "logging",
