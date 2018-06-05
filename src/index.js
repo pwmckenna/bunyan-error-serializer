@@ -13,7 +13,7 @@ const clean = err => {
     } catch (e) {}
     return cleaned;
 };
-export default err => {
+const serializer = withStack => err => {
     if (!(err instanceof Error)) {
         return err;
     }
@@ -28,7 +28,10 @@ export default err => {
         message,
         name,
         signal,
-        stack: clean(err),
+        cause: serializer(false)(VError.cause(err)),
+        stack: withStack ? clean(err) : undefined,
         ...VError.info(err)
     };
 };
+
+export default serializer(true);
